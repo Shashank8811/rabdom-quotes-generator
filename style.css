@@ -17,7 +17,7 @@ body {
 
 .container {
   margin-top: 48px;
-  height: 90vh;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -54,7 +54,8 @@ body {
   background-color: #007991;
   cursor: pointer;
 }
-.btn-generate:hover {
+.btn-generate:hover,
+.btn-generate::after {
   background-color: #8bc6ec;
   background-image: linear-gradient(
     135deg,
@@ -80,7 +81,7 @@ body {
 
 @media (max-width: 450px) {
   .container {
-    height: 85vh;
+    height: 90vh;
   }
   .text-box {
     width: 350px;
