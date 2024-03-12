@@ -6,7 +6,7 @@ const handleClick = () => {
       .then((res) => {
         console.log(res);
         quote = res.quote;
-        text.innerHTML = quote;
+        document.querySelector("#text").textContent = quote;
       });
     quote = res.quote;
     document.querySelector(".text").innerHTML = quote;
